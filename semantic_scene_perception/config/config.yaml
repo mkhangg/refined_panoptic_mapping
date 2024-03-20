@@ -1,0 +1,32 @@
+# Directory and model
+capture_folder: 'cap_data'
+seg_model_name: 'yolov8x-seg'
+pair_folder: 'masked_imgs/exps'
+kill_process: True # set to 'True' to end process
+
+# Model hyperparameters
+size: 640         # input image size for OpenVNO model       
+device: 'GPU'     # GPU for OpenVINO or CPU for onboard CPU
+
+# Kernel density estimation choices
+kernel: 'gaussian' # use Gaussian distribution for KDE
+optim_bw: 'ISJ'   # use ISJ algorithm for optimal bandwidth selection
+
+# Camera and image hyperparameters
+capture_frame: 9  # 7th and 8th frame will be captured, skipping 6 first frames, end at 9th frame
+brightness: 0.80  # recommened brightness adjustment parameter
+width_img: 640   
+height_img: 480
+frame_rate: 30    # set frame rate for RGB-D camera
+
+# Running mode 
+mode: 'deploy'    # will not visualization; otherwise, change to 'view'
+
+# Control parameters
+move_left_time: 3.5
+turn_right_time: 2.0
+base_stop_time: 4.0
+
+# Base computer
+ip_address: "192.168.1.249"
+port_no: 3000

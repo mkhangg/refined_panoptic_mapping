@@ -1,0 +1,7 @@
+Res_x: 640
+Res_y: 480
+u: 320
+v: 240
+f_x: 320 (px)
+f_y: 320
+(-->horizontal fov = 90deg, vertical fov ~72deg)
