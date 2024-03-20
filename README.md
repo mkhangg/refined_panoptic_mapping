@@ -92,7 +92,7 @@ python refined_panoptic_mapping/remove_depth_outliers.py
 The plots illustrating cutoffs is displayed followed by side-by-side view of noised and cleaner point clouds.
 
 <p align="center">
-   <img src="images/outlier_removal.png" data-canonical-src="images/outlier_removal.png" width="350"/><br/>
+   <img src="images/outlier_removal.png" data-canonical-src="images/outlier_removal.png" width="450"/><br/>
    <i>Outlier Removal on Point Clouds of Instances.</i>
  </p>
 
