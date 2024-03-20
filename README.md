@@ -47,7 +47,7 @@ Reconstructing three-dimensional (3D) scenes with semantic understanding is vita
 * [pyrealsense2](https://github.com/IntelRealSense/librealsense) (version 2.51.1.4348)
 * [Open3D](https://github.com/isl-org/Open3D) (version 0.16.0)
 
-A bit of modification for `KDEpy` library can be found at [KDEpy_mod](./KDEpy_mod/). Please replace the [bw_selection.py](KDEpy_mod\bw_selection.py) file with the original one.
+A bit of modification for `KDEpy` library can be found at [KDEpy_mod](./KDEpy_mod/). Please replace the [bw_selection.py](KDEpy_mod/bw_selection.py) file with the original one.
 
 <!-- METHOD OVERVIEW -->
 
@@ -75,7 +75,7 @@ Depth maps of object instances containing depth outliers (*top row*) due to the 
 
 ### Capture, Segment, and Refine 
 
-To capture a scene with segmentation (point clouds of instances), run:
+To capture a scene with segmentation (point clouds of instances), run [semantic_scene_perception/capture_segment_scene.py](semantic_scene_perception/capture_segment_scene.py) file:
 
 ```
 python semantic_scene_perception/capture_segment_scene.py
@@ -83,7 +83,7 @@ python semantic_scene_perception/capture_segment_scene.py
 
 The resultant point cloud (and their respective colored/depth images) is saved in `semantic_scene_perception/cap_data/exp[NO]`. A notification line is notified in the terminal.
 
-To produce the removal process, run:
+To produce the removal process, run [refined_panoptic_mapping/remove_depth_outliers.py](refined_panoptic_mapping/remove_depth_outliers.py) file:
 
 ```
 python refined_panoptic_mapping/remove_depth_outliers.py
@@ -150,7 +150,7 @@ We mount the Intel RealSense D435i RGB-D camera on the display of the Baxter rob
    <i>Deployment on Baxter Robot and Reconstructed Panoptic Mapping Result.</i>
  </p>
 
- To run the demo with an Intel RealSense D435i RGB-D camera, please run:
+ To run the demo with an Intel RealSense D435i RGB-D camera, run [refined_panoptic_mapping/demo.py](refined_panoptic_mapping/demo.py) file:
 
 ```
 python refined_panoptic_mapping/demo.py
