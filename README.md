@@ -117,7 +117,7 @@ Refer to the [panoptic_mapping/flat_dataset/run1/download.txt](panoptic_mapping/
 export FLAT_DATA_DIR="your/path/to/flat/dataset"
 ```
 
-Once downloaded, copy the `run1` folder and rename to `run1_mod_2`, `run1_mod_4`, `run1_mod_5` and replace the predicted `.png` images from the respective folders to proceed with building the maps.
+Once downloaded, copy `run1` and rename to `run1_mod_2`, `run1_mod_4`, `run1_mod_5`, replace the predicted `.png` images with `.png` images from the respective folders, and proceed with building the maps.
 
 ### Run Maps
 
