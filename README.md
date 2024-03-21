@@ -107,6 +107,19 @@ Qualitative results on the *flat* dataset of **(a)** the original panoptic mappi
    <i>Qualitative Results on Flat Dataset.</i>
  </p>
 
+### Dataset
+
+The *flat* dataset can be downloaded from the original [ASL Datasets](https://projects.asl.ethz.ch/datasets/doku.php?id=panoptic_mapping).
+
+Run the [panoptic_mapping/flat_dataset/run1/download.sh](panoptic_mapping/flat_dataset/run1/download.sh) shell script to download the dataset. Remember to change the `path` to your desired destination.
+
+
+```
+export FLAT_DATA_DIR="you/path/to/flat/dataset"
+```
+
+Once downloaded, copy the `run1` folder and rename to `run1_mod_2`, `run1_mod_4`, `run1_mod_5` and replace the predicted `.png` images from the respective folders to proceed with building the maps.
+
 ### Run Maps
 
 To build **(a) original panoptic** map, use contents of the following files:

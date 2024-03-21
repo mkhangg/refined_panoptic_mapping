@@ -1,0 +1,4 @@
+roscd panoptic_mapping_utils
+export FLAT_DATA_DIR="you/path/to/flat/dataset"
+chmod +x panoptic_mapping_utils/scripts/download_flat_dataset.sh
+./panoptic_mapping_utils/scripts/download_flat_dataset.sh
