@@ -111,7 +111,7 @@ Qualitative results on the *flat* dataset of **(a)** the original panoptic mappi
 
 The *flat* dataset can be downloaded from the original [ASL Datasets](https://projects.asl.ethz.ch/datasets/doku.php?id=panoptic_mapping).
 
-Refer to the [panoptic_mapping/flat_dataset/run1/download.sh](panoptic_mapping/flat_dataset/run1/download.txt) file to download the dataset. Remember to change the `path` to your desired destination.
+Refer to the [panoptic_mapping/flat_dataset/run1/download.txt](panoptic_mapping/flat_dataset/run1/download.txt) file to download the dataset. Remember to change the `path` to your desired destination.
 
 ```
 export FLAT_DATA_DIR="you/path/to/flat/dataset"
