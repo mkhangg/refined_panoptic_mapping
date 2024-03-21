@@ -114,7 +114,7 @@ The *flat* dataset can be downloaded from the original [ASL Datasets](https://pr
 Refer to the [panoptic_mapping/flat_dataset/run1/download.txt](panoptic_mapping/flat_dataset/run1/download.txt) file to download the dataset. Remember to change the `path` to your desired destination.
 
 ```
-export FLAT_DATA_DIR="you/path/to/flat/dataset"
+export FLAT_DATA_DIR="your/path/to/flat/dataset"
 ```
 
 Once downloaded, copy the `run1` folder and rename to `run1_mod_2`, `run1_mod_4`, `run1_mod_5` and replace the predicted `.png` images from the respective folders to proceed with building the maps.
